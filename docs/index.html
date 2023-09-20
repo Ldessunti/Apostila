@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostila</title>
+</head> 
+<body>
+    <div>
+        <header class="headernome">
+            <link rel="stylesheet" href="style/apostila.css">
+            <nav id="menu">
+            <h1 class="nome">Apostila de Lucas Arnaldo Dessunti</h1>
+                <ul>
+                    <a class="linkmenu" href="#introducao"><li class="listmenu">Introdução a HTML</li></a>
+                    <a class="linkmenu" href="#tags"><li class="listmenu">Tags HTML</li></a>
+                    <a class="linkmenu" href="#css"><li class="listmenu">CSS</li></a>
+                </ul>
+            </nav>
+        </header>    
+        <div>
+            <section class="linkmenu" id="introducao">
+                <h2>Introdução a HTML e CSS</h2>
+                <h3>Estrutrura de páginas HTML</h3>
+                    <ul>
+                        <li>Tag HTML, e a tag que identifica o documento como um hipertexto html</li>
+                        <li>Tag HEAD, é a tag que apresenta informações gerais sobre a página e de configuração</li>
+                        <li>Tag TITLE, e a tag que informa o título de uma p[agina na barra do navegador </li>
+                        <li>Tag BODY, e a tag que delimita o conteúdo da página</li>
+                    </ul>
+            </section>
+        </div>
+        <div>
+            <section id="tags">
+                <h2>Tags de Lista HTML </h2>
+                <ul>
+                     <li> <a href="#titulo">Tags de Titulo</a></li>
+                     <li> <a href="#texto">Tags de Texto</a></li>
+                     <li> <a href="#ordenadas">Lista ordenada</a></li>
+                     <li> <a href="#nordenadas">Lista não ordenada</a></li>
+                     <li> <a href="#definicao">Lista de definição</a></li>
+                     <li> <a href="#imagem">Tag de imagem</a></li>
+                </ul>
+                <h3 class="linkmenu" id="titulo">Tags de Titulo</h3>
+                <ul>
+                    <li>H1 sendo a com mais destaque</li>                            
+                    <li>H2</li>
+                    <li>H3</li>
+                    <li>H4</li>
+                    <li>H5</li>
+                    <li>H6 sendo a com menos destaque</li>
+                </ul>
+                <h3 class="linkmenu" id="texto">Tags de Texto</h3>
+                <ul>
+                    <li><strike>Tag Strike</strike> (Permite tachar algum trecho)</li>
+                    <li><sub>Tag Sub</sub> (Texto fica abaixo das demais partes do texto)</li>
+                    <li><sup>Tag Sup</sup> (Texto fica acima das demais partes do texto)</li>
+                    <li><big>Tag Big</big> (Modifica o tamnaho do texto deixando maior)</li>
+                    <li><small>Tag Small</small> (Modifica o tamnaho do texto deixando menor)</li>
+                    <li><tt>Tag TT</tt> (Mantem o mesmo espaçamento entre todos os caracteres)</li>
+                    <li><pre>Tag Pre</pre> (Exibe o texto como ele é digitado)</li>
+                    <li><cite>Tag Cite</cite> (Mantem o titulo de uma publicação em italico)</li>
+                    <li><strong>Tag Strong</strong> (Aplica negrito em uma frase)</li>
+                    <li><em>Tag Em</em> (Aplica italico em uma frase)</li>
+                    <li><blockquote>Tag Blockquote</blockquote> (Permite inclusão de uma citação longa ou de origem em outro site)</li>
+                </ul>
+                <h2>Tags HTML- Listas</h2>
+                <h3 class="linkmenu" id="ordenadas">Listas ordenadas (ol)</h3>
+                <ol>
+                    <li>Isso é</li>
+                    <li>Uma Lista</li>
+                    <li>Ordenada</li>
+                </ol>
+                <h3 class="linkmenu" id="nordenadas">Lista não ordenada (ul)</h3>
+                <ul>
+                    <li>Isso é</li>
+                    <li>Uma Lista</li>
+                    <li>Não Ordenada</li>
+                </ul>
+                <h3 class="linkmenu" id="definicao">Lista de Definição (dl)</h3>
+                <dl>
+                    <dt>A.</dt> <dd>Lista</dd>
+                    <dt>B.</dt> <dd>Definida pelo</dd>
+                    <dt>C.</dt> <dd>Usuario, usa um</dd>
+                    <dt>D.</dt> <dd>Definition Term (dt)</dd>
+                </dl>
+                <h3 id="imagem">Tag de Imagem</h3>
+                <ul>
+                    <img src="https://www.computerhope.com/jargon/h/img.png" 
+                    alt="Tag img em HTML"
+                    title="Imagem da Tag img">
+                    <li>Usa a Tag IMG</li>
+                </ul>
+            </section>
+        </div>
+        <div>
+            <section id="css">
+                <h2>CSS</h2>
+                <ul>
+                    <li> <a href="#intro">Funcionamento CSS</a></li>
+                    <li> <a href="#Seletores">Seletores CSS</a></li>
+                    <li> <a href="#rgb">Cores CSS</a></li>
+                </ul>
+                    <h3 class="linkmenu" id="intro">Funcionamento CSS</h3>
+                    <p>Existem 3 formas de colocar stilo CSS na sua página</p>
+                    <ol>
+                        <li style="color:#b2391d">Associar o estilo ao elemento HTML;</li>
+                        <li>Seção de estilo com a Tag Style;</li>
+                        <li>Associar um arquivo de extensão .css" a página. Utilizando a tag link no head da página</li>
+                    </ol>
+                    <h3 class="linkmenu" id="Seletores">Seletores CSS</h3>
+                    <p>Existem 3 tipos de seletores no CSS, são eles:</p>
+                    <ol>
+                        <li>Seletores de elemento:</li>
+                        <li>Seletor de id:</li>
+                        <li class="teste">Seletor de classe para aplicar estilo em elementos diversos, usa-se: .nome_da_classe;</li>
+                    </ol>
+                    <h3 class="linkmenu" id="rgb">Cores CSS</h3>
+                         <p>As cores podem ser definidas utilizando o formato RGB.
+                         Neste formato a intensidade da cor tem a intensidade definida entre 0 e 255.
+                         Onde 0 é 0% e 255 é 100%.</p>
+                         <p class="cores">Exemplo de color: rgb(0,255,0). Cor verde em 100%</p>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
